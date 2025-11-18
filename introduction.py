@@ -1,0 +1,8 @@
+name = input("enter your name :")
+age= int(input("enter your age :"))
+city= input("enter your city :")
+profession= input("enter your profession :")
+workplace = input("enter your workplace :")
+print("Hi I am",name,". I live in",city,". I am ",profession,"by profession. I work at",workplace) 
+print("Hi I am %s. I am %s years old. I live in %s.I am %s by profession . I work at %s ."%(name,age,city,profession,workplace))
+print("Hi I am {}. I am {} years old . I live in {}.".format(name,age,city))
